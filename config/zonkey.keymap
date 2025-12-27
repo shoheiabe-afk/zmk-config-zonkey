@@ -216,7 +216,7 @@
             bindings = <
 &kp CAPSLOCK    &kp GRAVE     &trans        &trans            &trans                                          &kp EXCLAMATION       &kp DOUBLE_QUOTES      &kp HASH         &kp PERCENT       &kp AMPERSAND
 &kp TAB         &trans        &trans        &trans            &trans       &trans                &kp JP_EISU  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION      &kp LEFT_BRACKET
-&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &kp LANG6             &trans       &kp JP_KANA           &moF                   &kp LESS_THAN    &kp GREATER_THAN  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT  &trans        &trans        &mkp LCLK         &mkp RCLK    &kp LANG6             &trans       &kp JP_KANA           &moF                   &kp LESS_THAN    &kp GREATER_THAN  &kp RIGHT_BRACKET
 &mt LCTL ESC    &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE         &kp ENTER                                                                    &kp DEL
             >;
 
