@@ -199,7 +199,7 @@
             bindings = <
 &kp Q           &kp W         &kp E         &kp R             &kp T                                         &kp Y          &kp U      &kp I      &kp O    &kp P
 &kp A           &kp S         &kp D         &kp F             &kp G        &kp LS(LG(S))         &kp B      &kp H          &kp J      &kp K      &kp L    &kp SQT
-&kp LEFT_SHIFT  &kp Z         &kp X         &lt 6 C           &lt 5 V      &lt 4 ESCAPE          &kp MINUS  &kp N          &kp M      &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp Z         &kp X         &lt 6 C           &lt 5 V      &lt 4 LANGUAGE_4      &kp MINUS  &kp N          &kp M      &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN               &kp BACKSPACE  &kp ENTER                                 &kp DEL
             >;
 
@@ -216,7 +216,7 @@
             bindings = <
 &kp CAPSLOCK    &kp GRAVE     &trans        &trans            &trans                                          &kp EXCLAMATION       &kp DOUBLE_QUOTES      &kp HASH         &kp PERCENT       &kp AMPERSAND
 &kp TAB         &trans        &trans        &trans            &trans       &trans                &kp JP_EISU  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION      &kp LEFT_BRACKET
-&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans                &trans       &kp JP_KANA           &moF                   &kp LESS_THAN    &kp GREATER_THAN  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &kp LANG6             &trans       &kp JP_KANA           &moF                   &kp LESS_THAN    &kp GREATER_THAN  &kp RIGHT_BRACKET
 &mt LCTL ESC    &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE         &kp ENTER                                                                    &kp DEL
             >;
 
@@ -233,7 +233,7 @@
             bindings = <
 &kp N1          &kp NUMBER_2  &kp N3        &kp N4            &kp N5                                                &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9    &kp NUMBER_0
 &trans          &trans        &trans        &trans            &trans       &trans                &kp K_VOLUME_UP    &kp PLUS      &kp ASTERISK  &kp AT_SIGN     &kp UP_ARROW    &trans
-&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans                &kp K_VOLUME_DOWN  &kp MINUS     &kp SLASH     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &kp LANGUAGE_5        &kp K_VOLUME_DOWN  &kp MINUS     &kp SLASH     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                       &kp C_MUTE    &kp ENTER                                                      &kp DEL
             >;
 
