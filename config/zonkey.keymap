@@ -214,10 +214,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp EXCLAMATION  &kp DQT                  &kp HASH           &kp DOLLAR        &kp PERCENT                                     &kp AMPS       &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RPAR          &kp TAB
-&kp CAPSLOCK     &kp LANG_ZENKAKUHANKAKU  &kp LANG_HIRAGANA  &kp LANG3         &trans       &trans                &kp JP_EISU  &kp EQUAL      &kp TILDE         &kp BACKSLASH         &kp AT            &kp LEFT_BRACKET
-&kp LEFT_SHIFT   &kp LANGUAGE_6           &trans             &mkp LCLK         &mkp RCLK    &kp LANG6             &trans       &kp JP_KANA    &kp COLON         &kp LESS_THAN         &kp GREATER_THAN  &kp RIGHT_BRACKET
-&mt LCTL ESC     &kp LEFT_WIN             &kp LEFT_ALT       &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE  &kp ENTER                                                                    &kp DEL
+&kp EXCLAMATION  &kp DQT                  &kp HASH           &kp DOLLAR        &kp PERCENT                                     &kp AMPS            &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RPAR          &kp TAB
+&kp CAPSLOCK     &kp LANG_ZENKAKUHANKAKU  &kp LANG_HIRAGANA  &kp LANG3         &trans       &trans                &kp JP_EISU  &kp KP_EQUAL_AS400  &kp TILDE2        &kp BACKSLASH         &kp AT            &kp LEFT_BRACKET
+&kp LEFT_SHIFT   &kp LANGUAGE_6           &trans             &mkp LCLK         &mkp RCLK    &kp LANG6             &trans       &kp JP_KANA         &kp COLON         &kp LESS_THAN         &kp GREATER_THAN  &kp RIGHT_BRACKET
+&mt LCTL ESC     &kp LEFT_WIN             &kp LEFT_ALT       &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE       &kp ENTER                                                                    &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
